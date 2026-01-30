@@ -125,7 +125,7 @@ st.markdown(
     <div class="workflow-container">
         <div class="workflow-tile">
             <h4>🐍 Python</h4>
-            <p style="font-size: 14px; color: #daffde;">The "gold standard" for finance. Powerful enough to handle heavy math and automate calculations that would take forever in a spreadsheet.</p>
+            <p style="font-size: 14px; color: #daffde;">I picked Python because it’s surprisingly easy to learn, but it’s still powerful enough to handle all the heavy math for finance. It lets me automate calculations that would take forever in a spreadsheet, and the charts actually look pretty nice and meaningful!</p>
         </div>
         <div class="workflow-tile">
             <h4>🐙 GitHub</h4>
@@ -133,7 +133,7 @@ st.markdown(
         </div>
         <div class="workflow-tile">
             <h4>🎨 Streamlit</h4>
-            <p style="font-size: 14px; color: #daffde;">The magic wand. It takes my Python code and turns it into this website, saving me from having to learn web design from scratch.</p>
+            <p style="font-size: 14px; color: #daffde;">This is what you’re looking at right now! It’s a really cool tool that takes my Python code and turns it into a website. It saved me from having to learn how to design a site from scratch.</p>
         </div>
     </div>
     """,
@@ -159,7 +159,7 @@ st.markdown(
             <div class="status-pill">Where we are: Phase 1 (Live Now) 🚀</div>
             <h4 style="margin: 0;">Phase 1: Buy & Hold MCS (Current)</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Just the basics. You pick your stocks, choose a date range, and set your weights. The app runs a Monte Carlo Simulation (MCS) to show potential realities for your money.
+                Buy & Hold MCS (Current) Just the basics. You pick your stocks, choose a date range, and set your weights. The app then runs a Monte Carlo Simulation (MCS) to show you a range of what might happen to your money over time.
             </p>
         </div>
         <!-- Phase 2 -->
@@ -167,7 +167,7 @@ st.markdown(
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 2: Finding "Better" Weights</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Adding an "Efficient Frontier" tool to find the specific mix of stocks that gives you the best return for your target risk level.
+                Finding "Better" Weights Instead of just guessing weights, I want to add an "Efficient Frontier" tool. This helps find the specific mix of stocks that gives you the best return for the risk you're taking.
             </p>
         </div>
         <!-- Phase 3 -->
@@ -175,7 +175,7 @@ st.markdown(
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 3: Stress Testing</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Testing how your portfolio would have survived "Black Swan" events like the 2008 crash or the 2020 COVID drop.
+                Stress Testing What happens if things go wrong? I want to build a feature that tests how your portfolio would have survived "Black Swan" events like the 2008 crash or the 2020 COVID drop.
             </p>
         </div>
         <!-- Phase 4 -->
@@ -183,7 +183,7 @@ st.markdown(
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 4: Different Weighting Styles</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Moving beyond "Buy & Hold" to explore institutional methods like Risk Parity and Inverse Volatility.
+                Different Weighting Styles Moving beyond just "Buy & Hold." I'll be looking at other methods like Risk Parity to see if they actually make a difference in the long run.
             </p>
         </div>
         <!-- Phase 5 -->
@@ -191,7 +191,7 @@ st.markdown(
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 5: Real-World Math</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Adding non-normal distribution models to account for those crazy market "tail risks" that standard math ignores.
+                Real-World Math Standard math assumes markets are "normal," but we know they aren't. I want to add non-normal distribution models to account for those crazy market "tail risks."
             </p>
         </div>
         <!-- Phase 6 -->
@@ -199,7 +199,7 @@ st.markdown(
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 6: To Rebalance or Not?</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Simulating auto-rebalancing to see if periodic checking actually helps your returns in the long run.
+                To Rebalance or Not? Adding a feature to simulate auto-rebalancing so we can see if checking in every 6 or 12 months actually helps your returns.
             </p>
         </div>
     </div>
@@ -212,7 +212,7 @@ st.divider()
 st.subheader("🤝 Let’s chat!")
 st.markdown(
     """
-    I’m currently looking for my first role in finance, so if you’re hiring or just want to talk shop, I’d love to connect!
+    I’m currently looking for my first role in finance, so if you’re hiring or just want to talk shop, I’d love to connect! Also, if you find a bug or have a cool idea for a feature, please let me know.
     
     👉 **LinkedIn:** [shanesri](https://www.linkedin.com/in/shanesri/)
     """,
