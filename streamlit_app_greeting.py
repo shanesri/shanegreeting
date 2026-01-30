@@ -159,7 +159,7 @@ st.markdown(
             <div class="status-pill">Where we are: Phase 1 (Live Now) 🚀</div>
             <h4 style="margin: 0;">Phase 1: Buy & Hold MCS (Current)</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Buy & Hold MCS (Current) Just the basics. You pick your stocks, choose a date range, and set your weights. The app then runs a Monte Carlo Simulation (MCS) to show you a range of what might happen to your money over time.
+                Just the basics. You pick your stocks, choose a date range, and set your weights. The app then runs a Monte Carlo Simulation (MCS) to show you a range of what might happen to your money over time.
             </p>
         </div>
         <!-- Phase 2 -->
@@ -167,7 +167,7 @@ st.markdown(
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 2: Finding "Better" Weights</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Finding "Better" Weights Instead of just guessing weights, I want to add an "Efficient Frontier" tool. This helps find the specific mix of stocks that gives you the best return for the risk you're taking.
+                Instead of just guessing weights, I want to add an "Efficient Frontier" tool. This helps find the specific mix of stocks that gives you the best return for the risk you're taking.
             </p>
         </div>
         <!-- Phase 3 -->
@@ -175,32 +175,31 @@ st.markdown(
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 3: Stress Testing</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Stress Testing What happens if things go wrong? I want to build a feature that tests how your portfolio would have survived "Black Swan" events like the 2008 crash or the 2020 COVID drop.
+                What happens if things go wrong? I want to build a feature that tests how your portfolio would have survived "Black Swan" events like the 2008 crash or the 2020 COVID drop.
             </p>
         </div>
         <!-- Phase 4 -->
         <div class="phase-card">
             <div class="phase-badge"></div>
-            <h4 style="margin: 0;">Phase 6: To Rebalance or Not?</h4>
+            <h4 style="margin: 0;">Phase 4: Different Weighting Styles</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                To Rebalance or Not? Adding a feature to simulate auto-rebalancing so we can see if checking in every 6 or 12 months actually helps your returns.
+                Moving beyond just "Buy & Hold." I'll be looking at other methods like Risk Parity to see if they actually make a difference in the long run.
             </p>
         </div>
-    
         <!-- Phase 5 -->
         <div class="phase-card">
             <div class="phase-badge"></div>
             <h4 style="margin: 0;">Phase 5: Real-World Math</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Real-World Math Standard math assumes markets are "normal," but we know they aren't. I want to add non-normal distribution models to account for those crazy market "tail risks."
+                Standard math assumes markets are "normal," but we know they aren't. I want to add non-normal distribution models to account for those crazy market "tail risks."
             </p>
         </div>
         <!-- Phase 6 -->
         <div class="phase-card">
             <div class="phase-badge"></div>
-            <h4 style="margin: 0;">Phase 4: Different Weighting Styles</h4>
+            <h4 style="margin: 0;">Phase 6: To Rebalance or Not?</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Different Weighting Styles Moving beyond just "Buy & Hold." I'll be looking at other methods like Risk Parity to see if they actually make a difference in the long run.
+                Adding a feature to simulate auto-rebalancing so we can see if checking in every 6 or 12 months actually helps your returns.
             </p>
         </div>
     </div>
