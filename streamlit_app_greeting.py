@@ -181,11 +181,12 @@ st.markdown(
         <!-- Phase 4 -->
         <div class="phase-card">
             <div class="phase-badge"></div>
-            <h4 style="margin: 0;">Phase 4: Different Weighting Styles</h4>
+            <h4 style="margin: 0;">Phase 6: To Rebalance or Not?</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                Different Weighting Styles Moving beyond just "Buy & Hold." I'll be looking at other methods like Risk Parity to see if they actually make a difference in the long run.
+                To Rebalance or Not? Adding a feature to simulate auto-rebalancing so we can see if checking in every 6 or 12 months actually helps your returns.
             </p>
         </div>
+    
         <!-- Phase 5 -->
         <div class="phase-card">
             <div class="phase-badge"></div>
@@ -197,9 +198,9 @@ st.markdown(
         <!-- Phase 6 -->
         <div class="phase-card">
             <div class="phase-badge"></div>
-            <h4 style="margin: 0;">Phase 6: To Rebalance or Not?</h4>
+            <h4 style="margin: 0;">Phase 4: Different Weighting Styles</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
-                To Rebalance or Not? Adding a feature to simulate auto-rebalancing so we can see if checking in every 6 or 12 months actually helps your returns.
+                Different Weighting Styles Moving beyond just "Buy & Hold." I'll be looking at other methods like Risk Parity to see if they actually make a difference in the long run.
             </p>
         </div>
     </div>
