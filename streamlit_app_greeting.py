@@ -100,14 +100,14 @@ st.markdown(
 )
 
 # --- Header ---
-st.title("📈 Welcome to the Macro Terminal")
+st.title("📈 Welcome to my finance/investment project")
 
 # --- A bit about me ---
 st.markdown(
     """
     <div class="intro-section">
         <h3>A bit about me</h3>
-        <p>Hi! I’m <strong>Shane from Thailand 🇹🇭</strong>. I recently passed the <strong>CFA Level 3</strong> exam, and after spending so much time buried in textbooks, 
+        <p>Hi! I’m <strong>Shane from Thailand </strong>. I recently passed the <strong>CFA Level 3</strong> exam, and after spending so much time buried in textbooks, 
         I really wanted to see if I could actually build something with all that theory. This app is just a hobby project of mine to practice 
         and show how some of those CFA concepts look when you put them into code. It's my way of proving I can bridge the gap 
         between financial theory and practical application!</p>
@@ -117,7 +117,7 @@ st.markdown(
 )
 
 # --- Workflow ---
-st.subheader("How I built this (The 'Finance Guy' way)")
+st.subheader("How I built this app")
 st.write("I’m definitely not a professional developer, so I looked for the easiest and most efficient way to get this running:")
 
 st.markdown(
