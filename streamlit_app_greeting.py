@@ -7,12 +7,46 @@ st.set_page_config(page_title="Shane Thailand | CFA L3", layout="wide")
 st.markdown(
     """
     <style>
+    /* Center the main block */
     [data-testid="stAppViewBlockContainer"] {
-        max-width: 1000px !important;
+        max-width: 1200px !important;
         margin: 0 auto !important;
         padding-top: 2rem !important;
     }
+    
+    .stMainBlockContainer {
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+    }
 
+    /* Sidebar Styling */
+    [data-testid="stSidebar"] {
+        background-color: #0e1117;
+    }
+    
+    .nav-item {
+        padding: 10px 15px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        font-weight: 500;
+        color: #8b949e;
+        font-size: 16px;
+    }
+    
+    .nav-item a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+    }
+
+    .nav-active {
+        background-color: #1f2937;
+        color: #ffffff !important;
+        border-left: 4px solid #4589ff;
+    }
+
+    /* Content Styling */
     .intro-section {
         background-color: #1e2130;
         padding: 30px;
@@ -99,15 +133,23 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# --- Sidebar ---
+with st.sidebar:
+    st.title("Navigation")
+    st.markdown('<div class="nav-item nav-active">👋 Greeting</div>', unsafe_allow_html=True)
+    st.markdown('<div class="nav-item"><a href="https://portoptimizebyshane.streamlit.app/" target="_blank">⚖️ Weight Optimizer (Efficient Frontier)</a></div>', unsafe_allow_html=True)
+    st.markdown('<div class="nav-item"><a href="https://mcsbyshane.streamlit.app/" target="_blank">📈 Portfolio Simulator (Monte Carlo)</a></div>', unsafe_allow_html=True)
+    st.markdown('<div class="nav-item"><a href="https://shanesri.com" target="_blank">🔗 Creator Info</a></div>', unsafe_allow_html=True)
+
 # --- Header ---
-st.title("📈 Welcome to my finance/investment project")
+st.title("📈 Welcome to the Macro Terminal")
 
 # --- A bit about me ---
 st.markdown(
     """
     <div class="intro-section">
         <h3>A bit about me</h3>
-        <p>Hi! I’m <strong>Shane from Thailand </strong>. I recently passed the <strong>CFA Level 3</strong> exam, and after spending so much time buried in textbooks, 
+        <p>Hi! I’m <strong>Shane from Thailand 🇹🇭</strong>. I recently passed the <strong>CFA Level 3</strong> exam, and after spending so much time buried in textbooks, 
         I really wanted to see if I could actually build something with all that theory. This app is just a hobby project of mine to practice 
         and show how some of those CFA concepts look when you put them into code. It's my way of proving I can bridge the gap 
         between financial theory and practical application!</p>
@@ -117,7 +159,7 @@ st.markdown(
 )
 
 # --- Workflow ---
-st.subheader("How I built this app")
+st.subheader("How I built this (The 'Finance Guy' way)")
 st.write("I’m definitely not a professional developer, so I looked for the easiest and most efficient way to get this running:")
 
 st.markdown(
@@ -154,18 +196,18 @@ st.markdown(
     """
     <div class="roadmap-container">
         <!-- Phase 1 -->
-        <div class="phase-card active">
-            <div class="phase-badge active"></div>
-            <div class="status-pill">Where we are: Phase 1 (Live Now) 🚀</div>
-            <h4 style="margin: 0;">Phase 1: Buy & Hold MCS (Current)</h4>
+        <div class="phase-card">
+            <div class="phase-badge"></div>
+            <h4 style="margin: 0;">Phase 1: Buy & Hold MCS (Completed)</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
                 Just the basics. You pick your stocks, choose a date range, and set your weights. The app then runs a Monte Carlo Simulation (MCS) to show you a range of what might happen to your money over time.
             </p>
         </div>
         <!-- Phase 2 -->
-        <div class="phase-card">
-            <div class="phase-badge"></div>
-            <h4 style="margin: 0;">Phase 2: Finding "Better" Weights</h4>
+        <div class="phase-card active">
+            <div class="phase-badge active"></div>
+            <div class="status-pill">Where we are: Phase 2 (Building Now) 🚧</div>
+            <h4 style="margin: 0;">Phase 2: Finding "Better" Weights (Current)</h4>
             <p style="color: #8b949e; font-size: 14px; margin-top: 10px;">
                 Instead of just guessing weights, I want to add an "Efficient Frontier" tool. This helps find the specific mix of stocks that gives you the best return for the risk you're taking.
             </p>
@@ -218,6 +260,3 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
-# Launch button for the main app
-st.link_button("🚀 Open Monte Carlo Simulator", "https://mcsbyshane.streamlit.app/")
